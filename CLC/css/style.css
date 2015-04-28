@@ -1,0 +1,256 @@
+/*Background color settings */
+html{
+    background-color: #ffc0d5;
+}
+/*Container color settings */
+.container{
+    background-color: white !important;
+    padding-bottom: 10em;
+}
+
+/* Let's nav bar overlab slider */
+.nav-edit{
+    position: relative;
+
+    z-index: 999;
+}
+
+.nav-style,nav{
+    background-color:transparent!important; 
+}
+@media only screen and (max-width:993px){
+    .nav-style,nav{
+        background-color:#fff!important; 
+}
+    nav{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    }
+    
+}
+/* Shadow Line 2001 */ 
+nav{
+-webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; 
+}
+/* Normal text colour and font size nav*/
+nav ul a{
+    color: #f18fa8 !important;
+    font-size: 1.5em !important;
+
+}
+/* Text colour for Active and hover nav */
+nav ul li a:hover,nav ul li.active a{
+    color: #ff597d !important;
+
+}
+/* setting margin for nav item */
+nav ul li{
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+/* Borderline for hover and active */
+nav ul li:hover,nav ul li.active{
+    border-bottom: 2.5px solid #ff597d !important;
+    background-color: transparent!important;
+}
+/* brand color not use when this is photo */
+.brand-style{
+    color: #f18fa8 !important;
+}
+.brand-style:hover{
+    color: #ff597d !important;
+}
+/* Slide top*/
+.slide-top{
+    top:-67px !important;
+}
+
+/* icon color opt*/
+.color-i{
+color: #ff597d;
+}
+
+/* make container for warper */
+nav .nav-wrapper{
+    width:  70% !important;
+    margin: auto;
+}
+@media only screen and (max-width:993px){
+    nav .nav-wrapper{
+    width: 90% !important;
+    margin: auto !important;
+    }
+}
+/* Typo Setting */
+
+h1{
+    font-weight: 600 !important;
+    font-size: 2.00rem !important;
+
+}
+.content-top-fix{
+    position: relative;
+    top: -8em;
+}
+/* World reset margin 
+and the rule of this world is
+"RESPECT THE FCKING !IMPORTANT" */
+.content-header{
+    margin:2.1rem 0 0 0;
+}
+.row-reset{
+    margin-bottom: 0 !important;
+}
+
+/*
+===================
+| The News Sector |
+===================
+*/
+.post-content {
+    padding-left: 15px;
+    bottom: 0.5rem;
+    left:0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    color: white;
+    
+
+}
+/* Responsive Post content */
+@media only screen and (max-width:500px){
+    .post-content{
+        bottom: auto;
+        left: auto;
+        position: relative;
+        top: -0.45em;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #ff87b0;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .hide-on-800-and-down{
+        display: none;
+    }
+}
+@media only screen and (min-width:801px) and (max-width:1399px){
+    .side-news{
+        display: inline-flex;
+        width: 100%;
+    }
+    .side-thumnail{
+        max-width: 50%;
+    }
+    .hide-on-801-to-1399{
+        display: none;
+    }
+    .side-1{
+        margin-right: 0.25em;
+    }
+    .side-2{
+        margin-left: 0.25em;
+    }
+    
+}
+
+@media only screen and (min-width:1400px){
+    .custon-news{
+        display: flex !important;
+        margin-left: 0.5em;
+        margin-left: 0.
+    }
+    .main-news{
+        width: 67%;
+        margin-right: 0.5rem;
+    }
+    .side-news{
+        width: 33%;
+    }
+    .hide-on-1400-and-up{
+        display: none;
+    }
+}
+.news-thumnail{
+    position: relative;
+
+}
+.news-thumnail h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin:0 !important;
+}
+.news-thumnail p{
+    margin:0 !important;
+    margin-bottom: 3px !important;
+}
+.news-thumnail a{
+    color: white;
+}
+
+.view-more-btn{
+    background-color: #ff597d;
+    text-align: right !important;
+}
+.view-more-btn:hover,.view-more-btn.active{
+    background-color: #f18fa8;
+    text-align: right !important;
+    
+}
+.right-btn {
+    text-align: right;
+}
+/*
+=============
+|Video Part |
+=============
+*/
+
+.video-main{
+    height: 355px;
+}
+.video-list h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+
+.video-thumnail {
+    
+}
+
+.video-thumnail-list {
+    display: flex;
+
+}
+
+
+
+.video-wraper {
+    display: inline-flex;
+}
+
+.vid-thum-text-wrap {
+    width: 100%;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.video-thumnail-header {
+    width: 100%;
+}
+
+.video-thumnail-user {
+    width: 100%;
+}
