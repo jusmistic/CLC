@@ -253,23 +253,39 @@ and the rule of this world is
 
 .video-thumnail-user {
     width: 100%;
+    
 }
 
-.album {
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    margin: 10px 0 0 10px;
+
+.album-text {
+    text-align: center;
     position: relative;
-    float: left;
-    height: 20em;
+    top: 5rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: white;
 }
-.one{
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(album/1.jpg);
- 
+
+.album-text h2{
+    font-size: 3rem;
+}
+.album-text a{
+    color: white;
+}
+.album-text hr{
+    height: 0.5rem;
+    background-color: white;
+}
+
+.album-container {
+    width: 100%;
+    min-width: 20em;
+    height: 20em;
+    min-height: 15em;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(album/1.jpg);
+    background-size:cover;
+
 }
