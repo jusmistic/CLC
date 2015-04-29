@@ -279,13 +279,15 @@ and the rule of this world is
 
 .album-container {
     width: 100%;
-    min-width: 20em;
+    min-width: 10em;
     height: 20em;
-    min-height: 15em;
+    min-height: 5em;
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url(album/1.jpg);
     background-size:cover;
-
+}
+.album{
+    margin-bottom: 1rem !important;
 }
